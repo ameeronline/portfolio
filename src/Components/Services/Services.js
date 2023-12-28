@@ -3,7 +3,7 @@ import './Services.css'
 
 function Services() {
     function downloadResume() {
-        const resumeUrl = "./files/my_resume.pdf";
+        const resumeUrl = "./files/myresume.pdf";
         const link = document.createElement("a");
         
         link.href = resumeUrl;
