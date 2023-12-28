@@ -8,7 +8,7 @@ function Services() {
         
         link.href = resumeUrl;
 
-        link.setAttribute("download", "my_resume.pdf");
+        link.setAttribute("download", "myresume.pdf");
 
         document.body.appendChild(link);
         link.click();
