@@ -1,38 +1,27 @@
-.App {
-  text-align: center;
+/* Headline Font */
+@font-face {
+  font-family: 'my-standard';
+  src: url('C:\Users\HP\Desktop\MERN\ReactJS\portfolio\public\fonts\my-standard.ttf');
+}
+/* Signature Quote Font */
+@font-face {
+  font-family: 'Hand of Jun';
+  src: url('C:\Users\HP\Desktop\MERN\ReactJS\portfolio\public\fonts\Hand of Jun.otf');
+}
+/* Section Font Eg. Technology Skills */
+@font-face {
+  font-family: 'Thirty Sans Bold DEMO' ;
+  src: url('C:\Users\HP\Desktop\MERN\ReactJS\portfolio\public\fonts\Thirty Sans Bold DEMO.ttf');
+}
+/* Nav Links and Other Description Font */
+@font-face {
+  font-family: 'Chocolates Trial Regular';
+  src: url('C:\Users\HP\Desktop\MERN\ReactJS\portfolio\public\fonts\TT Chocolates Trial Regular.otf');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body{
+  margin: 0;
+  background-color: #252525;
+  color: #fff;
+  scroll-behavior: smooth;
 }
