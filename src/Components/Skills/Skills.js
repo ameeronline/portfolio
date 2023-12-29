@@ -6,7 +6,7 @@ function Skills() {
         <div id='skills' className='skills-section'>
             <h2>Technology Skills</h2>
             <div className="skills">
-                <img src="./public/photos/skills-img.png" alt="Skills Image" />
+                <img src="./photos/skills-img.png" alt="Skills Image" />
             </div>
         </div>
     )
