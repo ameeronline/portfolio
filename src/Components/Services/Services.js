@@ -3,12 +3,12 @@ import './Services.css'
 
 function Services() {
     function downloadResume() {
-        const resumeUrl = "/files/my_resume.pdf";
+        const resumeUrl = "./public/files/myresume.pdf";
         const link = document.createElement("a");
         
         link.href = resumeUrl;
 
-        link.setAttribute("download", "my_resume.pdf");
+        link.setAttribute("download", "myresume.pdf");
 
         document.body.appendChild(link);
         link.click();
