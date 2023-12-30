@@ -14,7 +14,7 @@ function Navbar() {
 
   return (
     <div className='navbar'>
-      <img className='logo' src="/logo.png" alt="" />
+      <img className='logo' src="public/logo.png" alt="Signature Logo" />
       <h4 className='headline'>Software Developer, Creative Designer, Photographer</h4>
       <div id='navLinks' className={`nav-links ${showMenu ? 'show' : ''}`}>
         <a href="#" onClick={handleNavLinkClick}>Home </a>
