@@ -14,11 +14,7 @@ function Navbar() {
 
   return (
     <div className='navbar'>
-<<<<<<< HEAD
       <img className='logo' src="public/logo.png" alt="Signature Logo" />
-=======
-      <img className='logo' src="public/mainLogo.png" alt="Signature Logo" />
->>>>>>> 4ecc4d1af1ece0b82896289d102e331cdd53f911
       <h4 className='headline'>Software Developer, Creative Designer, Photographer</h4>
       <div id='navLinks' className={`nav-links ${showMenu ? 'show' : ''}`}>
         <a href="#" onClick={handleNavLinkClick}>Home </a>

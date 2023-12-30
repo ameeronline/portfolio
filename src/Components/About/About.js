@@ -12,11 +12,7 @@ function About() {
                     </h4>
                 </div>
                 <div className="about-photo">
-<<<<<<< HEAD
                     <img className='photo' src="public/photos/apple-emoji.png" alt="Animoji" />
-=======
-                    <img className='photo' src="./photos/apple-emoji.png" alt="Animoji" />
->>>>>>> 4ecc4d1af1ece0b82896289d102e331cdd53f911
                 </div>
             </div>
         </div>
