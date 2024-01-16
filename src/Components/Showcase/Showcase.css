@@ -22,7 +22,7 @@
 }
 
 /* responsive */
-@media (max-width: 767px) {
+@media (min-width: 767px) {
     .featured{
         justify-content: center;
         flex-direction: column;
