@@ -52,7 +52,7 @@
 }
 
 /* responsive */
-@media (min-width: 767px) {
+@media (min-width: 720px) {
     .service p{
         max-width: 400px;
     }
