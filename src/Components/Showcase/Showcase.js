@@ -5,7 +5,7 @@ function Showcase() {
     return (
         <div id='showcase' className='featured'>
             <div className="certificate">
-                <img src="./photos/boi-certificate.png" alt="Born On Instagram Certificate" />
+                <img className='boi-certificate' src="./photos/boi-certificate.png" alt="Born On Instagram Certificate" />
             </div>
             <div className="description">
                 <h2><span id="born-on-instagram">#BornOnInstagram</span> Recognized Creator</h2>

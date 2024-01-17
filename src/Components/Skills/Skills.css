@@ -16,7 +16,7 @@
 /* Media query for smaller screens */
 @media (min-width: 720px) {
     .skills-section{
-        margin-top: 400px;
+        margin-top: 450px;
     }
     .skills img {
         max-height: 250px;

@@ -30,5 +30,8 @@
     .certificate{
         max-width: 100%;
     }
+    .boi-certificate{
+        max-width: 80%;
+    }
 
 }
