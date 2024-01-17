@@ -82,7 +82,7 @@
 
 /* Media query for smaller screens */
 
-@media screen and (min-width: 767px) {
+@media screen and (max-width: 767px) {
     .nav-links {
         display: none;
         flex-direction: column;

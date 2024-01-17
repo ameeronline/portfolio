@@ -14,7 +14,7 @@
     max-height: 350px;
 }
 /* Media query for smaller screens */
-@media (min-width: 767px) {
+@media (max-width: 767px) {
     .skills-section{
         margin-top: 450px;
     }
