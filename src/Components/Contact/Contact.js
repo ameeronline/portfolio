@@ -2,6 +2,7 @@ import React from 'react'
 import './Contact.css'
 
 function Contact() {
+
     return (
         <div id='contact' className='contact-section'>
             <div className="contact">
@@ -21,7 +22,7 @@ function Contact() {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default Contact

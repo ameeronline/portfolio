@@ -14,8 +14,8 @@ function Projects() {
                 </div>
                 <div className="project">
                     <h2 className='project-headline'>Netflix</h2>
-                    <p className='project-content'>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
-                    <a href="https://github.com/your-github-username" class="github-button"><i class="fa-brands fa-github fa-fade fa-2xl"></i></a>
+                    <p className='project-content'>Dive into the world of cinema with my Netflix Home Page Clone, meticulously crafted using ReactJS. This project is more than just a clone; it's an immersive experience that brings the original Netflix UI/UX to life.</p>
+                    <a href="https://github.com/ameeronline/netflix-home" class="github-button"><i class="fa-brands fa-github fa-fade fa-2xl"></i></a>
                     <h5 id='view-on-github'>View on GitHub</h5>
                 </div>
                 <div className="project">
