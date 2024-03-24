@@ -12,7 +12,7 @@ function About() {
                     </h4>
                 </div>
                 <div className="about-photo">
-                    <img className='photo' src="./photos/apple-emoji.png" alt="Animoji" />
+                    <img className='photo' src='./photos/apple-emoji-one.png' alt="Animoji" />
                 </div>
             </div>
         </div>
