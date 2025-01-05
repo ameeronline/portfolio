@@ -19,7 +19,6 @@ function App() {
       <Showcase />
       <Contact />
       <Footer />
-      
     </div>
   );
 }
