@@ -6,7 +6,7 @@ function Footer() {
     <div className='footer'>
       <div className="footer-space">
         <h4><i class="fa-regular fa-copyright"></i>&nbsp;ameeronline 2023-24</h4>
-        <h4 className='email'>helloameeronline@gmail.com</h4>
+        <h4 className='email'>helloameeronline@gmail.com</h4> 
         <div className="social-media">
           <a href="https://www.linkedin.com/in/ameeronline"><i class="fa-brands fa-linkedin-in fa-xl"></i></a>
           <a href="https://github.com/ameeronline"><i class="fa-brands fa-github fa-xl"></i></a>
