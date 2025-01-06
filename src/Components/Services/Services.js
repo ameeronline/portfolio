@@ -1,21 +1,21 @@
-import React from 'react'
-import './Services.css'
+import React, { useState } from "react";
+import FormOverlay from "../FormOverlay/FormOverlay";
+import './Services.css';
 
 function Services() {
-    function downloadResume() {
-        const resumeUrl = "./files/my_resume.pdf";
-        const link = document.createElement("a");
-        
-        link.href = resumeUrl;
+    const [isFormVisible, setIsFormVisible] = useState(false);
 
-        link.setAttribute("download", "my_resume.pdf");
+    const handleDownloadClick = () => {
+        setIsFormVisible(true); // Show the form overlay
+    };
 
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-    }
+    const handleFormSubmit = (details) => {
+        setIsFormVisible(false); // Hide the form overlay
+        console.log("Form submitted successfully:", details); // Optional logging
+    };
+
     return (
-        <div className='services-section'>
+        <div className="services-section">
             <h2>What do I do!</h2>
             <div className="services">
                 <div className="service">
@@ -44,12 +44,16 @@ function Services() {
                     <p>Combining storytelling flair with visual finesse, I specialize in crafting compelling narratives and designing eye-catching graphics. Proficient in creative tools, I bring ideas to life, delivering engaging content that captivates audiences. This section showcases my dedication to infusing creativity into digital expression through both captivating visuals and evocative writing.</p>
                 </div>
                 <div className="resume">
-                    <button onClick={downloadResume} className='download-button col-12'>Download Resume&nbsp;<i class="fa-regular fa-circle-down"></i></button>
+                    <button onClick={handleDownloadClick} className="download-button col-12">
+                        Download Resume&nbsp;<i className="fa-regular fa-circle-down"></i>
+                    </button>
                 </div>
             </div>
 
+            {/* Conditionally render the form overlay */}
+            {isFormVisible && <FormOverlay onSubmit={handleFormSubmit} onClose={() => setIsFormVisible(false)} />}
         </div>
-    )
+    );
 }
 
-export default Services
+export default Services;
