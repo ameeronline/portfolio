@@ -136,10 +136,13 @@ form {
   form{
     margin-top: 40px;
   }
+  .form-content input {
+    width: 100%;
+  }
   
   .form-buttons button {
-    width: 40%;
+    width: 60%;
     margin-top: 35px;
-    padding: 8px;
+    padding: 6px;
   }
 }
