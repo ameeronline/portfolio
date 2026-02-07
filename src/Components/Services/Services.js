@@ -39,9 +39,9 @@ function Services() {
                     <p>In the realm of UI/UX Designing, I merge creativity with functionality to create captivating user interfaces and delightful user experiences. Following a user-centered design approach, I use React for front-end development, ensuring seamless interactions and visually engaging designs that enhance user satisfaction.</p>
                 </div>
                 <div className="service">
-                    <h3>Creative Designing/Writing</h3>
+                    <h3>Cloud & Infrastructure Engineering</h3>
                     <hr />
-                    <p>Combining storytelling flair with visual finesse, I specialize in crafting compelling narratives and designing eye-catching graphics. Proficient in creative tools, I bring ideas to life, delivering engaging content that captivates audiences. This section showcases my dedication to infusing creativity into digital expression through both captivating visuals and evocative writing.</p>
+                    <p>With expertise in cloud and infrastructure engineering, I design and deploy scalable, secure, and efficient systems. My work involves leveraging cloud platforms like AWS, Azure, or GCP to build resilient architectures that support modern applications. I specialize in containerization with Docker and orchestration with Kubernetes, ensuring seamless deployment and management of applications across diverse environments.</p>
                 </div>
                 <div className="resume">
                     <button onClick={handleDownloadClick} className="download-button col-12">

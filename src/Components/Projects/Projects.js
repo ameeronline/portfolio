@@ -26,7 +26,7 @@ function Projects() {
                 </div>
                 <div className="project">
                     <h2 className='project-headline'>E-Commerce</h2>
-                    <p className='project-content'>Excited to introduce my latest project - a dynamic Shopping Cart web application! 🚀 This project is designed to provide a seamless and user-friendly experience for managing your online purchases.</p>
+                    <p className='project-content'>Excited to introduce my latest project - a dynamic Shopping Cart web application! This project is designed to provide a seamless and user-friendly experience for managing your online purchases.</p>
                     <a href="https://github.com/ameeronline/E-Commerce-Website" class="github-button"><i class="fa-brands fa-github fa-fade fa-2xl"></i></a>
                     <h5 id='view-on-github'>View on GitHub</h5>
                 </div>
